@@ -4,5 +4,5 @@ def imprimir_datos_persona(**kwargs):
     for llave, valor in kwargs.items():
         print(f'{llave}:{valor}')
 
-# Lamamos ala función
+# Lamamos a la función
 imprimir_datos_persona(nombre = 'Pedro', apellido = 'Perez', edad = 45, ciudad = 'Gijon')

@@ -1,8 +1,8 @@
-print('*** Obtener coordenadas x, y, z')
+print('*** Obtener coordenadas x, y, z ***')
 
 def obtener_coordenadas():
     x, y, z = 10, 20, 30
-    return x, y, z
+    return x, y, z  # Retornamos una tupla
 
 # Llamamos a la fubción
 resultado = obtener_coordenadas()

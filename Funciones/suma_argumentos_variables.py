@@ -5,6 +5,6 @@ def sumar(*args):
         total += valor
     return total
 
-# Llamamos a la función sumat
+# Llamamos a la función sumar
 resultado = sumar(1, 2, 3, 4, 5)
 print(f'El resultado de la suma es: {resultado}')
