@@ -1,3 +1,5 @@
+print('*** Alcance de Variables ***')
+
 # Variable global
 contador_global = 0
 
@@ -16,7 +18,7 @@ def incrementar_contador():
     print(f'Contador local: {contador_local}')
     print(f'Contador global: {contador_global}\n')
 
-# Lamamos varias veces a la funcion
+# Llamamos varias veces a la función
 incrementar_contador()
 incrementar_contador()
 incrementar_contador()

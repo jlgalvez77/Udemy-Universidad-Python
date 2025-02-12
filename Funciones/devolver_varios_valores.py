@@ -1,6 +1,7 @@
+# Definición de la función
 def persona_mayusculas(nombre, apellido, edad):
-    print(f'Esta función devuelve varios valore.')
-    return nombre.upper(), apellido.upper(), edad
+    print(f'Esta función devuelve varios valores.')
+    return (nombre.upper(), apellido.upper(), edad) # Devuelve una tupla
 
 # Programa principal
 nombre, apellido, edad = persona_mayusculas('jose', 'galvez', 47)
