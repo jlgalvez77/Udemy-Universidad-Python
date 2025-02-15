@@ -11,28 +11,34 @@ class Coche:
         Modelo: {self._modelo}
         Color: {self._color}''')
 
-    # Lee la  información del atributo
-    def get_marca(self):
+    # Otra forma de definir el metodo get
+    @property
+    def marca(self):
         return self._marca
 
     # Modifica el valor del atributo
-    def set_marca(self, marca):
+    @marca.setter
+    def marca(self, marca):
         self._marca = marca
 
     # Lee la  información del atributo
-    def get_modelo(self):
+    @property
+    def modelo(self):
         return self._modelo
 
     # Modifica el valor del atributo
-    def set_modelo(self, modelo):
+    @modelo.setter
+    def modelo(self, modelo):
         self._modelo = modelo
 
     # Lee la  información del atributo
-    def get_color(self):
+    @property
+    def color(self):
         return self._color
 
     # Modifica el valor del atributo
-    def set_color(self, color):
+    @color.setter
+    def color(self, color):
         self._color = color
 
 
@@ -46,3 +52,5 @@ if __name__ == '__main__':
     coche1.set_modelo('Yaris 2')
     coche1.set_color('Azul 2')
     coche1.conducir()
+    # Atributo de marca del coche1
+    print(f'Atributo marca coche1: {coche1.marca}')
