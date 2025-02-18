@@ -20,16 +20,16 @@ class Aritmetica:
         self._operando2 = operando2
 
     def sumar(self):
-        return self.operando1 + self.operando2
+        return self._operando1 + self._operando2
 
     def restar(self):
-        return self.operando1 - self.operando2
+        return self._operando1 - self._operando2
 
     def multiplicar(self):
-        return self.operando1 * self.operando2
+        return self._operando1 * self._operando2
 
     def dividir(self):
-        return self.operando1 / self.operando2
+        return self._operando1 / self._operando2
 
     def mostrar_resultado(self):
         print(f'El resultado de la suma es: {aritmetica1.sumar()}')
