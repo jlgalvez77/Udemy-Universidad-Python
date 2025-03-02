@@ -1,6 +1,5 @@
 from dispositivo_entrada import DispositivoEntrada
 
-
 class Teclado(DispositivoEntrada):
     contador_teclados = 0
 
@@ -12,7 +11,6 @@ class Teclado(DispositivoEntrada):
     def __str__(self):
         return f'Id: {self.id_teclado}, Marca: {self.marca}, Tipo de Entrada: {self.tipo_entrada}'
 
-
 if __name__ == '__main__':
-    teclado1 = Teclado('Razer', 'Bluetooth')
-    print(teclado1)
+    teclado1 = Teclado('Razer', 'USB')
+    print(teclado1)  # ✅ Esto debe imprimir correctamente

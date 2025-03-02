@@ -1,6 +1,5 @@
 from dispositivo_entrada import DispositivoEntrada
 
-
 class Raton(DispositivoEntrada):
     contador_ratones = 0
 
