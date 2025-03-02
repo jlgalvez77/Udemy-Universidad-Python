@@ -10,9 +10,9 @@ class Empresa:
         empleado = Empleado(nombre, departamento)
         self.empleados.append(empleado)
 
-   def obtener_numero_empleados_departamento(self, departamento):
-       contador_empleados_por_departamento = 0
-       for empleado in self.empleados:
-           if empleado.departamento == departamento:
-               contador_empleados_por_departamento += 1
-       return contador_empleados_por_departamento
+    def obtener_numero_empleados_departamento(self, departamento):  # Se corrigió la indentación
+        contador_empleados_por_departamento = 0
+        for empleado in self.empleados:
+            if empleado.departamento == departamento:
+                contador_empleados_por_departamento += 1
+        return contador_empleados_por_departamento
